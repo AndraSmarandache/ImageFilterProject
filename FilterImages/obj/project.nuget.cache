@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGMmtWEZ+7Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\japan\\OneDrive\\Documents\\ANUL 3 SEMESTRUL 2\\FilterImages\\FilterImages\\FilterImages\\FilterImages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\japan\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.3\\microsoft.win32.systemevents.9.0.3.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\opencvsharp4\\4.10.0.20241108\\opencvsharp4.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\opencvsharp4.runtime.win\\4.10.0.20241108\\opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\sixlabors.imagesharp\\3.1.7\\sixlabors.imagesharp.3.1.7.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\system.drawing.common\\9.0.3\\system.drawing.common.9.0.3.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
