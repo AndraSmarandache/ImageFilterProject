@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(GaussianBlur)
+
+find_package(OpenCL REQUIRED)
+
+add_executable(GaussianBlur main.cpp)
+target_include_directories(GaussianBlur PRIVATE ${OpenCL_INCLUDE_DIRS})
+target_link_libraries(GaussianBlur PRIVATE ${OpenCL_LIBRARIES})

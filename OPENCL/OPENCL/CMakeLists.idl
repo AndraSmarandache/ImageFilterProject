@@ -1,0 +1,9 @@
+namespace OPENCL
+{
+    [default_interface]
+    runtimeclass CMakeLists : Windows.UI.Xaml.Controls.Page
+    {
+        CMakeLists();
+        Int32 MyProperty;
+    }
+}
