@@ -178,6 +178,7 @@ For comprehensive algorithm analysis, experimental methodology, and detailed res
 
 - [MPI Image Processing Case Study](https://github.com/example/mpi-image-processing)
 - [Parallel Image Processing with MPI](https://example.com/parallel-processing)
+- [Gaussian Kernel Matrix Calculation](https://stackoverflow.com/questions/29731726/how-to-calculate-a-gaussian-kernel-matrix-efficiently-in-numpy)
 - [Image Filtering using OpenCL](https://stackoverflow.com/questions/29731726/how-to-calculate-a-gaussian-kernel-matrix-efficiently-in-numpy)
 ---
 
