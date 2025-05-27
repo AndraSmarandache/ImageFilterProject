@@ -1,4 +1,4 @@
-﻿#include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include <CL/cl.h>
 #include <iostream>
 #include <fstream>
@@ -259,9 +259,6 @@ __kernel void gaussianVertical(
 
         clFinish(queue);
 
-        auto computeEnd = chrono::high_resolution_clock::now();
-        cout << "Computation time: " << chrono::duration<double, milli>(computeEnd - computeStart).count() << endl;
-
         output.create(height, width, input.type());
         void* mappedOutput = clEnqueueMapBuffer(queue, outputBuffer, CL_TRUE, CL_MAP_READ,
             0, imageSize, 0, NULL, NULL, &err);
@@ -271,6 +268,8 @@ __kernel void gaussianVertical(
         clEnqueueUnmapMemObject(queue, outputBuffer, mappedOutput, 0, NULL, NULL);
 
         clReleaseMemObject(kernelBuffer);
+        auto computeEnd = chrono::high_resolution_clock::now();
+        cout << "Computation time: " << chrono::duration<double, milli>(computeEnd - computeStart).count() << endl;
         return true;
     }
 
